@@ -1,0 +1,14 @@
+{
+    "modname": "Dispersion Reticle",
+    "checked": "включено",
+    "unchecked": "выключено",
+    "defaultValue": "по умолчанию",
+    "reductionStyle.new": "Новый (шкала прогресса)",
+    "reductionStyle.old": "Старый (слайдер)",
+    "reductionEnabled.header": "Индикатор сведения",
+    "reductionEnabled.body": "Показывать индикатор сведения прицела",
+    "reductionStyle.header": "Стиль индикатора",
+    "reductionStyle.body": "Визуальный стиль индикатора сведения",
+    "reduction.aimed": "СВЕДЁН",
+    "reduction.sec": "с"
+}

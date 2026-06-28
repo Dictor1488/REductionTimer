@@ -1,0 +1,14 @@
+{
+    "modname": "Dispersion Reticle",
+    "checked": "enabled",
+    "unchecked": "disabled",
+    "defaultValue": "default",
+    "reductionStyle.new": "New (progress bar)",
+    "reductionStyle.old": "Old (slider)",
+    "reductionEnabled.header": "Reduction indicator",
+    "reductionEnabled.body": "Show aiming reduction (convergence) indicator",
+    "reductionStyle.header": "Indicator style",
+    "reductionStyle.body": "Visual style of the reduction indicator",
+    "reduction.aimed": "AIMED",
+    "reduction.sec": "s"
+}
