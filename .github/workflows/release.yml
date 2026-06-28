@@ -18,7 +18,7 @@ on:
       mod_id:
         description: 'Mod ID (e.g., me.author.modname)'
         required: true
-        default: 'me.under_pressure.dispersionreticle'
+        default: 'me.under_pressure.reductiontimer'
       mod_name:
         description: 'Mod Name'
         required: true
