@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+from .utils import logger
+
+
+def initialize():
+    from .flash.dispersion_flash import registerFlashComponents
+    registerFlashComponents()
+
+    from .hooks import install_hooks
+    install_hooks()
+    logger.info('[ReductionTimer] Initialized')
+
+
+def finalize():
+    from .flash.dispersion_flash import unregisterFlashComponents
+    unregisterFlashComponents()
+
+    from .hooks import uninstall_hooks
+    uninstall_hooks()
+
+    from .settings import g_config
+    g_config.fini()
+    logger.info('[ReductionTimer] Finalized')
